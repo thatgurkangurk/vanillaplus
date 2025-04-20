@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "vanillaplus:backerium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "vanillaplus:backerium_nugget"
+  }
+}

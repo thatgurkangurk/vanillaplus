@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "incomplete_backerium_nugget",
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "W": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillaplus:incomplete_backerium_nugget"
+  }
+}

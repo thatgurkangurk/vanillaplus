@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillaplus",
+  "version": "${version}",
+  "name": "Vanilla+ Custom Content",
+  "description": "",
+  "authors": [
+    {
+      "name": "Gurkan"
+    }
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/vanillaplus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "me.gurkz.vanillaplus.client.VanillaPlusDataGenerator"
+    ],
+    "client": [
+      "me.gurkz.vanillaplus.client.VanillaPlusClient"
+    ],
+    "main": [
+      "me.gurkz.vanillaplus.VanillaPlus"
+    ]
+  },
+  "mixins": [
+    "vanillaplus.mixins.json",
+    {
+      "config": "vanillaplus.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "group": "backerium_ingot",
+  "category": "misc",
+  "ingredient": {
+    "item": "vanillaplus:incomplete_backerium_nugget"
+  },
+  "result": {
+    "id": "vanillaplus:backerium_nugget"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}
