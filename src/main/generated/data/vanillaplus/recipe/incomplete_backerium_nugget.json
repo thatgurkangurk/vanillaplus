@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "incomplete_backerium_nugget",
   "key": {
     "#": {
       "item": "minecraft:rotten_flesh"
