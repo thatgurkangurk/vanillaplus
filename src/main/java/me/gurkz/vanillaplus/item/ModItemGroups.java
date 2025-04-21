@@ -19,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.INCOMPLETE_BACKERIUM_NUGGET);
                         entries.add(ModItems.BACKERIUM_NUGGET);
                         entries.add(ModBlocks.BACKERIUM_BLOCK);
+
+                        entries.add(ModItems.BACKERIUM_WAND);
                     }))
                     .build()
     );

@@ -1,9 +1,6 @@
 package me.gurkz.vanillaplus.client;
 
-import me.gurkz.vanillaplus.client.datagen.ModBlockTagProvider;
-import me.gurkz.vanillaplus.client.datagen.ModLootTableProvider;
-import me.gurkz.vanillaplus.client.datagen.ModModelProvider;
-import me.gurkz.vanillaplus.client.datagen.ModRecipeProvider;
+import me.gurkz.vanillaplus.client.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -17,5 +14,6 @@ public class VanillaPlusDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModLootTableProvider::new);
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeProvider::new);
+        pack.addProvider(ModItemTagProvider::new);
     }
 }
