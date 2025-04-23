@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "vanillaplus:item/short_backerium_stick"
+  }
+}

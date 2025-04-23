@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "backerium_nugget",
+  "ingredient": {
+    "item": "vanillaplus:backerium_nugget"
+  },
+  "result": {
+    "id": "vanillaplus:superheated_backerium_nugget"
+  }
+}

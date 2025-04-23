@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillaplus:superheated_backerium_nugget"
+    },
+    "I": {
+      "item": "vanillaplus:short_backerium_stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillaplus:backerium_dagger"
+  }
+}

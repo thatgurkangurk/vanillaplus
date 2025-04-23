@@ -1,7 +1,10 @@
 {
-  "item.vanillaplus.incomplete_backerium_nugget": "Incomplete Backerium Nugget",
+  "block.vanillaplus.backerium_block": "Backerium Block",
   "item.vanillaplus.backerium_nugget": "Backerium Nugget",
-
-  "block.vanillaplus.backerium_block": "Block of Backerium",
-  "itemgroup.vanillaplus.vanilla_plus_items": "Vanilla+"
+  "item.vanillaplus.backerium_stick": "Backerium Stick",
+  "item.vanillaplus.incomplete_backerium_nugget": "Incomplete Backerium Nugget",
+  "item.vanillaplus.short_backerium_stick": "Short Backerium Stick",
+  "item.vanillaplus.superheated_backerium_nugget": "Superheated Backerium Nugget",
+  "item.vanillaplus.backerium_dagger": "Backerium Dagger",
+  "itemgroup.vanillaplus.vanilla_plus_items": "Vanilla+ Items"
 }

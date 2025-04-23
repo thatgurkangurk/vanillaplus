@@ -1,6 +1,7 @@
 package me.gurkz.vanillaplus.client.datagen;
 
 import me.gurkz.vanillaplus.block.ModBlocks;
+import me.gurkz.vanillaplus.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -17,5 +18,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.BACKERIUM_BLOCK);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_BACKERIUM_TOOL)
+                .forceAddTag(BlockTags.NEEDS_STONE_TOOL);
     }
 }

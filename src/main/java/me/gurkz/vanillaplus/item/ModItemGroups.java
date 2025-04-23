@@ -17,7 +17,11 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.vanillaplus.vanilla_plus_items"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.INCOMPLETE_BACKERIUM_NUGGET);
+                        entries.add(ModItems.SUPERHEATED_BACKERIUM_NUGGET);
                         entries.add(ModItems.BACKERIUM_NUGGET);
+                        entries.add(ModItems.BACKERIUM_STICK);
+                        entries.add(ModItems.SHORT_BACKERIUM_STICK);
+
                         entries.add(ModBlocks.BACKERIUM_BLOCK);
                     }))
                     .build()

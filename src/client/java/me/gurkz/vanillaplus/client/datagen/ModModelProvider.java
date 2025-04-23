@@ -22,5 +22,10 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BACKERIUM_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.INCOMPLETE_BACKERIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUPERHEATED_BACKERIUM_NUGGET, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BACKERIUM_STICK, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHORT_BACKERIUM_STICK, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BACKERIUM_DAGGER, Models.HANDHELD);
     }
 }
