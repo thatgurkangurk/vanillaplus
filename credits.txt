@@ -1,0 +1,1 @@
+me.gurkz.vanillaplus.mixin.NameTagItemMixin: Vanilla Tweaks - https://vanillatweaks.net/
