@@ -4,6 +4,7 @@
   "package": "me.gurkz.vanillaplus.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "HeightmapLogShutterUpperMixin"
   ],
   "injectors": {
     "defaultRequire": 1
