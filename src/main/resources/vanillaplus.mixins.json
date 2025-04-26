@@ -4,7 +4,8 @@
   "package": "me.gurkz.vanillaplus.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "NameTagItemMixin"
+    "NameTagItemMixin",
+    "HeightmapLogShutterUpperMixin"
   ],
   "injectors": {
     "defaultRequire": 1

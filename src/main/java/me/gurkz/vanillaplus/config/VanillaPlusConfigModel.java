@@ -9,6 +9,8 @@ import java.util.List;
 @Modmenu(modId = "vanillaplus")
 @Config(name = "vanillaplus", wrapperName = "VanillaPlusConfig")
 public class VanillaPlusConfigModel {
+    public boolean disableHeightmapSizeMismatchLog = true;
+  
     @Nest
     @Expanded
     public SilenceMobs silenceMobs = new SilenceMobs();
