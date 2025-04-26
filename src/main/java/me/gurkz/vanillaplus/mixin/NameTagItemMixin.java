@@ -5,6 +5,7 @@ package me.gurkz.vanillaplus.mixin;
     read more in the credits.txt file
  */
 
+import me.gurkz.vanillaplus.VanillaPlus;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -21,22 +22,12 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.Vec3d;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import java.util.Set;
-
 @Mixin(NameTagItem.class)
 public abstract class NameTagItemMixin {
-    @Unique
-    private static final Set<String> SILENCE_NAMES = Set.of(
-            "silence me",
-            "shut up",
-            "please be quiet i am literally begging you"
-    );
-
     @Inject(method = "useOnEntity", at = @At("HEAD"), cancellable = true)
     private void silenceEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand, CallbackInfoReturnable<ActionResult> cir) {
         Text text = stack.get(DataComponentTypes.CUSTOM_NAME);
@@ -44,7 +35,7 @@ public abstract class NameTagItemMixin {
             return;
         }
 
-        if (!SILENCE_NAMES.contains(text.getString().toLowerCase())) {
+        if (!VanillaPlus.CONFIG.silenceMobs.validNames().contains(text.getString().toLowerCase())) {
             return;
         }
 
