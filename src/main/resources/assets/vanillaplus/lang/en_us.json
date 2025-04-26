@@ -6,5 +6,9 @@
   "item.vanillaplus.short_backerium_stick": "Short Backerium Stick",
   "item.vanillaplus.superheated_backerium_nugget": "Superheated Backerium Nugget",
   "item.vanillaplus.backerium_dagger": "Backerium Dagger",
-  "itemgroup.vanillaplus.vanilla_plus_items": "Vanilla+ Items"
+  "itemgroup.vanillaplus.vanilla_plus_items": "Vanilla+ Items",
+
+  "text.config.vanillaplus.title": "Vanilla+ Config",
+  "text.config.vanillaplus.category.silenceMobs": "Silence Mobs",
+  "text.config.vanillaplus.option.silenceMobs.validNames": "Valid Names"
 }
